@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Minus_1_update</string>
+
+    <string-array name="quantity1">
+        <item>0 किग्रा ▼,1 किग्रा,2 किग्रा,3 किग्रा,4 किग्रा,5 किग्रा,6 किग्रा,7 किग्रा,8 किग्रा,9 किग्रा,10 किग्रा</item>
+        <item>0 लीटर ▼,1 लीटर,2 लीटर,3 लीटर,4 लीटर,5 लीटर,6 लीटर,7 लीटर,8 लीटर,9 लीटर,10 लीटर</item>
+        <item>0 पैकेट ▼,1 पैकेट,2 पैकेट,3 पैकेट,4 पैकेट,5 पैकेट,6 पैकेट,7 पैकेट,8 पैकेट,9 पैकेट,10 पैकेट</item>
+        <item>0 पैक ▼,1 पैक,2 पैक,3 पैक,4 पैक,5 पैक,6 पैक,7 पैक,8 पैक,9 पैक,10 पैक</item>
+        <item>0 कैन ▼,1 कैन,2 कैन,3 कैन,4 कैन,5 कैन</item>
+        <item>0 ▼,1,2,3,4,5,6,7,8,9,10</item>
+    </string-array>
+
+    <string-array name="quantity2">
+        <item>0 ग्राम ▼,100 ग्राम,200 ग्राम,250 ग्राम,300 ग्राम,400 ग्राम,500 ग्राम,600 ग्राम,700 ग्राम,800 ग्राम,900 ग्राम</item>
+        <item>0 मिली ▼,100 मिली,200 मिली,250 मिली,300 मिली,400 मिली,500 मिली,600 मिली,700 मिली,800 मिली,900 मिली</item>
+    </string-array>
+
+    <string-array name="product_tags">
+        <item>All </item>
+        <item>Daal </item>
+        <item>Safai </item>
+        <item>Beauty </item>
+        <item>Oil </item>
+        <item>Sarf_Sabun </item>
+        <item>Household </item>
+        <item>Anaaj </item>
+        <item>Mirch_Masale </item>
+        <item>Vegetables </item>
+        <item>Medical </item>
+        <item>Hardware </item>
+        <item>Electronics </item>
+        <item>Farming </item>
+        <item>Pets </item>
+        <item>Other_Items </item>
+    </string-array>
+
+</resources>

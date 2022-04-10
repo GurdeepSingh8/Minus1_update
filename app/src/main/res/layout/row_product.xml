@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/row_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="8dp"
+    android:background="@drawable/card_bg"
+    android:elevation="8dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txturl"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Image Url - "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item_Product_Image" />
+
+    <TextView
+        android:id="@+id/item_Product_Image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/txturl"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Name - "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_Product_Image" />
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/txtname"
+        app:layout_constraintTop_toBottomOf="@id/item_Product_Image" />
+
+    <TextView
+        android:id="@+id/txtm1price"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Minus 1 Price - "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/product_name" />
+
+    <TextView
+        android:id="@+id/new_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#3A7856"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/txtm1price"
+        app:layout_constraintTop_toBottomOf="@+id/product_name" />
+
+    <TextView
+        android:id="@+id/txtmarketprice"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Market Price - "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/new_price" />
+
+    <TextView
+        android:id="@+id/old_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="#813333"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/txtmarketprice"
+        app:layout_constraintTop_toBottomOf="@id/new_price" />
+
+    <TextView
+        android:id="@+id/txtq1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Quantity 1 - "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/old_price" />
+
+    <TextView
+        android:id="@+id/quantity_spinner_kg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/txtq1"
+        app:layout_constraintTop_toBottomOf="@id/old_price" />
+
+    <TextView
+        android:id="@+id/txtq2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Quantity 2 - "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/quantity_spinner_kg" />
+
+    <TextView
+        android:id="@+id/quantity_spinner_gms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/txtq2"
+        app:layout_constraintTop_toBottomOf="@id/quantity_spinner_kg" />
+
+    <TextView
+        android:id="@+id/txtTags"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Tags - "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/quantity_spinner_gms" />
+
+    <TextView
+        android:id="@+id/pro_tags_row"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@id/txtTags"
+        app:layout_constraintStart_toEndOf="@id/txtTags" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

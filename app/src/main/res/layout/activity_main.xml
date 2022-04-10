@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#B8B8B8"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/barrier"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.minus_1_update.TagEditText
+        android:id="@+id/tgedtxt"
+        android:focusable="false"
+        android:hint="Tags"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stroke_background"/>
+
+    <AutoCompleteTextView
+        android:focusable="false"
+        android:hint="Tags"
+        android:gravity="start"
+        android:layout_width="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="1dp"
+        android:id="@+id/pro_tags"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tgedtxt"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/stroke_background">
+    </AutoCompleteTextView>
+
+    <EditText
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/stroke_background"
+        android:hint="Image Url"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stroke_background"
+        android:hint="Name"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image"/>
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/newPrice"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stroke_background"
+        android:hint="Minus 1 Price"
+        app:layout_constraintEnd_toStartOf="@+id/barrier"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tgedtxt" />
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/oldPrice"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stroke_background"
+        android:hint="Market Price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/barrier"
+        app:layout_constraintTop_toBottomOf="@+id/tgedtxt" />
+
+    <AutoCompleteTextView
+        android:gravity="center"
+        android:id="@+id/quantityKg"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stroke_background"
+        android:hint="Quantity 1"
+        app:layout_constraintEnd_toStartOf="@+id/barrier"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newPrice" />
+
+    <AutoCompleteTextView
+        android:gravity="center"
+        android:id="@+id/quantityGms"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stroke_background"
+        android:hint="Quantity 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/barrier"
+        app:layout_constraintTop_toBottomOf="@+id/oldPrice" />
+
+    <TextView
+        android:id="@+id/view_products"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="View Products"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/addProduct"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/bg_btn"
+        android:text="Add Product"
+        android:textColor="@color/colorCreamBackground"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quantityKg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

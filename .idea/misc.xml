@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/drawable-v24/stroke_background.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/drawable/bg_btn.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/drawable/bordered_rectangle_rounded_corners.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/drawable/card_bg.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/drawable/card_bgg.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/drawable/delete_bg.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/drawable/ic_cross_15dp.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/layout/activity_main.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/layout/activity_update_product.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/layout/activity_view_products.xml" value="0.25" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/layout/row_product.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/Minus_1_update/app/src/main/res/layout/spinner_edit_text_item.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
